@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Main Styles */
+  #main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image Styles */
+  #img-div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #img-caption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Tribute Info Styles */
+  #tribute-info {
+    line-height: 1.6;
+  }
+  
+  #tribute-heading {
+    font-size: 1.2em;
+  }
+  
+  /* Link Styles */
+  #tribute-link {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    #main {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    #tribute-heading {
+      font-size: 1em;
+    }
+  
+    #img-caption {
+      font-size: 0.8em;
+    }
+  }
